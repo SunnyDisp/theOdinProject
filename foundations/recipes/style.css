@@ -1,0 +1,42 @@
+body {
+    font-family: "Trebuchet MS", Garamond, sans-serif;
+    background-color: rgba(220, 220, 220, 0.527);
+    font-size: 24px;
+    color: black;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.title {
+    font-family: "Courier New", Georgia, serif;
+    font-weight: bold;
+    background-color: white;
+}
+
+.content {
+    font-weight: bold;
+}
+
+img {
+    width: 400px;
+    height: auto;
+    border-radius: 10%;
+    display: block;
+    margin: 50px auto 50px auto;
+}
+
+.recipe.description {
+    font-style: italic;
+}
+
+li {
+    text-align: left;
+}
+
+.back-to-homepage {
+    color: gray;
+    font-size: 14px;
+}
