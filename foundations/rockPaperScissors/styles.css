@@ -1,0 +1,110 @@
+body {
+    font-family: "Silkscreen", monospace, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    background-color: #17113A;
+    color: #7CFFFE;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-basis: auto;
+    padding: 0px;
+    margin: 0;
+}
+
+.message {
+    display: flex;
+    flex-basis: auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    margin: 30px 0 0;
+    padding: 0px;
+}
+
+.message > h2 {
+    font-family: "VT323", monospace, Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+.choices {
+    display: flex;
+    flex-basis: auto;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 0 50px;
+    padding: 0;
+    margin: 0;
+}
+
+.choices > .player {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    align-content: space-between;
+    margin: 20px 0;
+    width: 180px;
+    height: 200px;
+    gap: 10px;
+}
+
+.player > .img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 135px;
+    height: 135px;
+    border: 3px yellow solid;
+    border-radius: 10px;
+
+}
+.player-name,
+.player-selection {
+    color: #7CFFFE;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.buttons {
+    display: flex;
+    flex-basis: auto;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0 0;
+    padding: 20px;
+}
+
+.buttons > button {
+    font-family: "Silkscreen", monospace, Arial, Helvetica, sans-serif;
+    background-color: #7CFFFE;
+    color: #17113A;
+    border-radius: 100px;
+    padding: 5px;
+    box-sizing: border-box;
+    width: 100px;
+    height: 35px;
+    margin: 0 10px;
+    text-align: center;
+    border: 3px #7CFFFE solid;
+    box-shadow: 0 3px #999;
+}
+
+.buttons > button:active {
+    background-color: #7CFFFE;
+    box-shadow: 0 3px #666;
+    transform: translateY(3px);
+}
+
+.buttons > #restart-btn {
+    background-color: #17113A;
+    color: #7CFFFE;
+}

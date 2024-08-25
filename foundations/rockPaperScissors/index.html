@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&family=VT323&display=swap" rel="stylesheet">
+    <title>Project: Rock Paper Scissors</title>
+</head>
+<body>
+    <div class="message">
+        <h2 id="header">Think you can win 5 times against the computer?</h2>
+        <div  class="choices">
+            <div class="player" id="human">
+                <p class="player-selection" id="human-selection">SELECTION</p>
+                <div class="img" id="human-img"></div>
+                <p class="player-name" id="human-name-score">HUMAN : 0</p>
+            </div>
+            
+            <p>VS</p>
+
+            <div class="player" id="computer">
+                <p class="player-selection" id="comp-selection">SELECTION</p>
+                <div class="img" id="comp-img"></div>
+                <p class="player-name" id="comp-name-score">COMPUTER : 0</p>
+                
+            </div>
+        </div>
+    </div>
+
+    <div class="buttons">
+        <button id="rock-btn">ROCK</button>
+        <button id="paper-btn">PAPER</button>
+        <button id="scissors-btn">SCISSORS</button>
+        <button id="restart-btn">RESTART</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
